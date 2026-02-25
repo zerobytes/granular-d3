@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+
+# Lock file (uncomment to ignore; some teams commit it)
+# package-lock.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor / IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Env and secrets
+.env
+.env.*
+!.env.example
+
+# Logs and debug
+*.log
+npm-debug.log*
+.npm
+
+# Build / output (if you add a build step later)
+dist/
+build/
+*.tsbuildinfo
+
+# Coverage and tests
+coverage/
+.nyc_output/
+
+# Optional
+.cache/

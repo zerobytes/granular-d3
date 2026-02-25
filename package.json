@@ -1,0 +1,29 @@
+{
+  "name": "@granularjs/d3",
+  "version": "0.1.0",
+  "description": "D3.js encapsulation for GranularJS — reactive charts as Renderables, no extra dependencies.",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node --test test/ 2>/dev/null || echo 'No tests yet'"
+  },
+  "dependencies": {
+    "d3": "^7.9.0"
+  },
+  "peerDependencies": {
+    "@granularjs/core": ">=1.0.0"
+  },
+  "devDependencies": {
+    "@granularjs/core": "1.4.1"
+  },
+  "keywords": [
+    "granular",
+    "granularjs",
+    "d3",
+    "chart",
+    "visualization",
+    "reactive"
+  ],
+  "author": "",
+  "license": "Apache-2.0"
+}
