@@ -1,6 +1,6 @@
 {
   "name": "@granularjs/d3",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "D3.js encapsulation for GranularJS — reactive charts as Renderables, no extra dependencies.",
   "type": "module",
   "main": "src/index.js",
