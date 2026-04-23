@@ -5,7 +5,13 @@
   "type": "module",
   "main": "src/index.js",
   "scripts": {
-    "test": "node --test test/ 2>/dev/null || echo 'No tests yet'"
+    "test": "node --test test/ 2>/dev/null || echo 'No tests yet'",
+    "prepublishOnly": "npm test",
+    "version": "git add -A",
+    "postversion": "git push && git push origin v$(node -p \"require('./package.json').version\")",
+    "release:patch": "./release.sh patch",
+    "release:minor": "./release.sh minor",
+    "release:major": "./release.sh major"
   },
   "dependencies": {
     "d3": "^7.9.0"
